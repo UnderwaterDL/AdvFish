@@ -62,7 +62,8 @@ $  python3  train_models_adv.py --d      Fish4Knowledge  \
                                 --eps    0.005        
 ```
 
-** Arguments
+#### Arguments
+
 * -d: dataset ('Fish4Knowledge', QUTFish or 'WildFish')
 * -m: CNN model (ResNet18', 'ResNet34', 'ResNet50', 'EfficientNetB2', 'EfficientNetB3', 'EfficientNetB4')
 * -l: loss ('ce')
