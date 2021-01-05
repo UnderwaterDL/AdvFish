@@ -3,7 +3,7 @@ Code for Paper "Large-scale Underwater Fish Recognition via Deep Adversarial Lea
 
 ## Dependencies
 ```console
-Python = 3.6, Tensorflow = 1.8, keras = 2.3.1, tqdm, Pillow
+Python=3.6, Tensorflow=1.8, keras=2.3.1, tqdm, Pillow
 ```
 
 ## Dataset downloading and pre-processing
