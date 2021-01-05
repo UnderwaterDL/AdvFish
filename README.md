@@ -31,13 +31,16 @@ The training-test split will be activated the first time the above three functio
 ## Model training
 
 * Standard training
+
 $  python3  train_models.py --d      Fish4Knowledge  \
                             --m      ResNet50        \
                             --l      ce              \
                             --e      50              \
                             --b      32              \
                             --s      224   
+
 * Training using AMSoftmax loss
+
 $  python3  train_models_center.py --d      Fish4Knowledge  \
                                    --m      ResNet50        \
                                    --e      50              \
@@ -45,6 +48,7 @@ $  python3  train_models_center.py --d      Fish4Knowledge  \
                                    --s      224   
                                    
 * Training using center loss
+
 $  python3  train_models_center.py --d      Fish4Knowledge  \
                                    --m      ResNet50        \
                                    --e      50              \
@@ -52,6 +56,7 @@ $  python3  train_models_center.py --d      Fish4Knowledge  \
                                    --s      224   
                                  
 * AdvFish training
+
 $  python3  train_models_adv.py --d      Fish4Knowledge  \
                                 --m      ResNet50        \
                                 --e      50              \
