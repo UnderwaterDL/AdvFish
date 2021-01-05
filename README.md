@@ -30,29 +30,28 @@ The training-test split will be activated the first time the above three functio
 
 ## Model training
 
-#### * standard training
+* Standard training
 $  python3  train_models.py --d      Fish4Knowledge  \
                             --m      ResNet50        \
                             --l      ce              \
                             --e      50              \
                             --b      32              \
                             --s      224   
-
-#### * training using AMSoftmax loss
+* Training using AMSoftmax loss
 $  python3  train_models_center.py --d      Fish4Knowledge  \
                                    --m      ResNet50        \
                                    --e      50              \
                                    --b      32              \
                                    --s      224   
                                    
-#### * training using center loss
+* Training using center loss
 $  python3  train_models_center.py --d      Fish4Knowledge  \
                                    --m      ResNet50        \
                                    --e      50              \
                                    --b      32              \
                                    --s      224   
                                  
-#### * AdvFish training
+* AdvFish training
 $  python3  train_models_adv.py --d      Fish4Knowledge  \
                                 --m      ResNet50        \
                                 --e      50              \
@@ -60,7 +59,7 @@ $  python3  train_models_adv.py --d      Fish4Knowledge  \
                                 --s      224             \
                                 --eps    0.005        
                                    
-### * Arguments
+** Arguments
 * -d: dataset ('Fish4Knowledge', QUTFish or 'WildFish')
 * -m: CNN model (ResNet18', 'ResNet34', 'ResNet50', 'EfficientNetB2', 'EfficientNetB3', 'EfficientNetB4')
 * -l: loss ('ce')
