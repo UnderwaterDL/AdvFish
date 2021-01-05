@@ -62,15 +62,15 @@ $  python3  train_models_adv.py --d      Fish4Knowledge  \
                                 --eps    0.005        
 ```
 
-#### Arguments
+#### Arguments - train_models.py
 
 * -d: dataset ('Fish4Knowledge', QUTFish or 'WildFish')
-* -m: CNN model (ResNet18', 'ResNet34', 'ResNet50', 'EfficientNetB2', 'EfficientNetB3', 'EfficientNetB4')
-* -l: loss ('ce')
+* -m: CNN model (ResNet18', 'ResNet34', 'ResNet50', 'EfficientNetB1', 'EfficientNetB2', 'EfficientNetB3', 'EfficientNetB4')
+* -l: loss ('ce', 'sce', 'margin'), ams and center loss are in different other training files
 * -e: total number of training epochs, default 50
 * -b: batch size, default 32
 * -s: input size, default 224
-* -eps: adversarial perturbation size, default 1.2/255
+* -eps: adversarial perturbation size, default 1.2/255 (only for train_models_adv.py)
 
 ### Links to extenal resources:
 * Fish4Knowledge: http://groups.inf.ed.ac.uk/f4k/GROUNDTRUTH/RECOG/
