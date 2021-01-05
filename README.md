@@ -6,7 +6,7 @@ Code for Paper "Large-scale Underwater Fish Recognition via Deep Adversarial Lea
 Python = 3.6, Tensorflow = 1.8, keras = 2.3.1, tqdm, Pillow
 ```
 
-## data collection and pre-processing
+## Dataset downloading and pre-processing
 
 see codes in datasets.py
 
@@ -28,7 +28,7 @@ see codes in datasets.py
    
 The training-test split will be activated the first time the above three functions are called, and the image indexes will be save into different files for later use. So the firt time call get_Fish4Knowledge/get_QUTFish/get_WildFish may take a while for the processing to complete.
 
-## model training
+## Model training
 
 #### standard training
 $  python3  train_models.py --d      Fish4Knowledge  \
